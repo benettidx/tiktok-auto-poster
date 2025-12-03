@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Auto Poster - Automated Video Publishing</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #333;
+        }
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .icon {
+            font-size: 3em;
+        }
+        .cta {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fe2c55;
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: white;
+        }
+        footer a {
+            color: white;
+            margin: 0 15px;
+        }
+        .how-it-works {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .how-it-works h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .step {
+            max-width: 250px;
+        }
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: #fe2c55;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 TikTok Auto Poster</h1>
+            <p>Automate your TikTok content publishing with ease</p>
+        </header>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">📁</div>
+                <h3>Google Drive Integration</h3>
+                <p>Simply upload your videos to Google Drive folders organized by posting time, and let the automation handle the rest.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">⏰</div>
+                <h3>Smart Scheduling</h3>
+                <p>Schedule your posts for optimal times throughout the day. Support for multiple time slots: 7AM, 12PM, 3PM, and 7PM.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🤖</div>
+                <h3>Fully Automated</h3>
+                <p>Once configured, the system automatically monitors your folders and publishes content without any manual intervention.</p>
+            </div>
+        </div>
+
+        <div class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Connect TikTok</h4>
+                    <p>Authorize the app to post on your behalf using TikTok's secure OAuth</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Upload Videos</h4>
+                    <p>Drop your videos into the time-based folders in Google Drive</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Auto Publish</h4>
+                    <p>Videos are automatically posted at the scheduled times</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <a href="#" class="cta-button">Get Started Free</a>
+        </div>
+
+        <footer>
+            <p>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </p>
+            <p style="margin-top: 20px; opacity: 0.7;">
+                © 2024 TikTok Auto Poster. Not affiliated with TikTok.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
